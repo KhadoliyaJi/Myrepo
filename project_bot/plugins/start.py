@@ -1,4 +1,4 @@
-from .. import tgbot,openai_key
+from .. import tgbot
 from telethon import events
 import asyncio 
 import openai
