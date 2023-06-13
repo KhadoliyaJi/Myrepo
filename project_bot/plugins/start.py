@@ -1,7 +1,6 @@
 from .. import tgbot
 from telethon import events
 import asyncio 
-import openai
 
 @tgbot.on(events.NewMessage(incoming = True, pattern="/start")) 
 async def start(event):
